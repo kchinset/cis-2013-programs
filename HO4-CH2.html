@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Paychek Calculator</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="pay.css" />
+	<script type="text/javascript" src="pay.js"></script>
+</head>
+
+<body>
+	<div id="content">
+		<h1>Paycheck Calculator</h1>
+		<p>
+			Enter the values requested below and click <em>"Calculate"</em>.
+		</p>
+
+		<label for="hourly_wage">Hourly Wage:  $</label>
+		<input type="text" id="hourly_wage" />
+		<br />
+
+		<label for="hours_worked">Hour Worked:</label>
+		<input type="text" id="hours_worked" />
+		<br />
+        
+        <label>&nbsp;</label>
+		<input type="button" class="btn btn-success" id="calc" value="Calculate"></input>
+		<br />
+    
+		<label for="total_pay">Next Paycheck:  $</label>
+		<input type="text" id="total_pay" disabled="disabled" />
+		<br><br>
+		<img class = "img-circle" src="https://media.giphy.com/media/G4qAZYIFr1Cww/giphy.gif" alt="money_cat"  height="450" width="555">
+	</div>
+</body>
+</html>
